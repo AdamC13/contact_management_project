@@ -1,6 +1,6 @@
 import re
 
-contacts = {1234567890: {"Name" : "Shrek", "Phone number" : 1234567890, "Email" : "swampdaddy@swampdaddy.edu", "Additional info" :  "GET OUTTA MY SWAMP!!"}}
+contacts = {"1234567890": {"Name" : "Shrek", "Phone number" : "1234567890", "Email" : "swampdaddy@swampdaddy.edu", "Additional info" :  "GET OUTTA MY SWAMP!!"}}
 
 def cli():      # This is the main menu
     while True:
